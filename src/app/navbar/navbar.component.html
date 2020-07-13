@@ -1,0 +1,40 @@
+<div class="main-container"> 
+  
+  <mat-toolbar color="primary">
+    
+    <div fxShow="true" fxHide.gt-sm="true">
+      <button mat-icon-button (click)="sidenav.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+    </div>
+
+    <a mat-button class="siteName" routerLink="/">
+      <span>Francisco's Pizzeria</span>
+    </a>
+
+    <span class="spacer"></span>
+    
+    <div fxShow="true" fxHide.lt-md="true">
+      <a mat-button routerLink="/about-us">About us</a>
+      <a mat-button routerLink="/menu">Menu</a>
+      <a mat-button routerLink="/contact">Contact</a>
+    </div>
+
+  </mat-toolbar>
+
+  <mat-sidenav-container fxFlexFill>
+
+    <mat-sidenav color="primary" #sidenav fxLayout="column" mode="over"  opened="false" fxHide.gt-sm="true">
+      <div fxLayout="column">
+        <a mat-button routerLink="/about-us">About us</a>
+        <a mat-button routerLink="/menu">Menu</a>
+        <a mat-button routerLink="/contact">Contact</a>
+      </div>
+    </mat-sidenav>
+
+    <mat-sidenav-content fxFlexFill>
+      <ng-content></ng-content>
+    </mat-sidenav-content>
+
+  </mat-sidenav-container>
+</div>

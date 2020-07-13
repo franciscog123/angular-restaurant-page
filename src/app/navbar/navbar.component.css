@@ -1,0 +1,61 @@
+.main-container
+{
+    height: 100%;
+}
+
+.siteName
+{
+    font-size: 140%;
+}
+
+.mat-toolbar
+{
+    height: 7vh;
+    position: fixed;
+    z-index: 2;
+}
+
+div 
+{
+    overflow: inherit;
+}
+
+.mat-sidenav-container
+{
+    min-height: 93vh !important;
+}
+
+a{
+    text-decoration: none;
+    font-size: 110%;
+    white-space: normal;
+}
+
+button
+{
+    font-size: 110%;
+    min-width: min-content;
+}
+
+.example-icon 
+{
+    padding: 0 14px;
+}
+
+.spacer 
+{
+    flex: 1 1 auto;
+}
+
+.mat-sidenav-content
+{
+    font-size: 200%;
+    text-align: center;
+    margin-top: 7vh;
+    overflow: scroll;
+}
+
+.mat-sidenav
+{
+    margin-top: 7vh;
+}

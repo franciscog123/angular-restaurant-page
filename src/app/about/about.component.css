@@ -1,0 +1,13 @@
+.main-paragraphs
+{
+    font-size: large;
+    margin:20px;
+    line-height: 35px;
+}
+
+.mat-card
+{
+    display: block;
+    height:70%; 
+} 
+/* Works for now. mat card content overflows parent mat card though. */
