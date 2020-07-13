@@ -2,7 +2,7 @@
 
 A restaurant homepage created using the Angular framework. 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
+Live demo: https://franciscog123.github.io/angular-restaurant-page/
 
 ## Development server
 
