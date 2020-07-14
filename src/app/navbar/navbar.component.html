@@ -24,11 +24,11 @@
 
   <mat-sidenav-container fxFlexFill>
 
-    <mat-sidenav color="primary" #sidenav fxLayout="column" mode="over"  opened="false" fxHide.gt-sm="true" [autoFocus]="false" fixedInViewport="true">
+    <mat-sidenav autosize color="primary" #sidenav fxLayout="column" mode="over"  opened="false" fxHide.gt-sm="true" [autoFocus]="false" fixedInViewport="true">
       <div fxLayout="column">
-        <a mat-button routerLink="/about-us">About us</a>
-        <a mat-button routerLink="/menu">Menu</a>
-        <a mat-button routerLink="/contact">Contact</a>
+        <a mat-button color="primary" class="side-button" routerLink="/about-us">About us</a>
+        <a mat-button color="primary" class="side-button" routerLink="/menu">Menu</a>
+        <a mat-button color="primary" class="side-button" routerLink="/contact">Contact</a>
       </div>
     </mat-sidenav>
 

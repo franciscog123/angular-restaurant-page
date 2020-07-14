@@ -6,6 +6,7 @@
 .siteName
 {
     font-size: 140%;
+    font-family: 'Lobster', cursive, Arial, Helvetica, sans-serif;
 }
 
 .mat-toolbar
@@ -58,4 +59,10 @@ button
 .mat-sidenav
 {
     margin-top: 7vh;
+    width:300px;
+}
+
+.side-button{
+    line-height: 60px !important;
+    font-size: 150% !important;
 }

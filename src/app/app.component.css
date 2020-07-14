@@ -7,6 +7,20 @@
   {
     bottom: 0;
     width: 100%;
-    background-color: red;
+    background-color: #f44336;
     color: white;
+    display: flex;
+    text-align: left;
+    line-height: 30px;
+    align-items: center;
+  }
+
+  .icon
+  {
+    padding:5px;
+    margin-top: 5px;
+  }
+  
+  .icon:hover{
+    transform: scale(1.2);
   }
