@@ -1,3 +1,15 @@
+.container
+{
+    height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.mat-card{
+    display: inline-flex;
+    flex-direction: column;
+} 
+
 .main-paragraphs
 {
     font-size: large;
@@ -5,9 +17,3 @@
     line-height: 35px;
 }
 
-.mat-card
-{
-    display: block;
-    height:70%; 
-} 
-/* Works for now. mat card content overflows parent mat card though. */
