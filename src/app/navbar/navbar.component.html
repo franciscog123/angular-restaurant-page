@@ -24,7 +24,7 @@
 
   <mat-sidenav-container fxFlexFill>
 
-    <mat-sidenav color="primary" #sidenav fxLayout="column" mode="over"  opened="false" fxHide.gt-sm="true">
+    <mat-sidenav color="primary" #sidenav fxLayout="column" mode="over"  opened="false" fxHide.gt-sm="true" [autoFocus]="false" fixedInViewport="true">
       <div fxLayout="column">
         <a mat-button routerLink="/about-us">About us</a>
         <a mat-button routerLink="/menu">Menu</a>
@@ -33,6 +33,7 @@
     </mat-sidenav>
 
     <mat-sidenav-content fxFlexFill>
+      <!-- <mat-sidenav-content fxLayout="column"> -->
       <ng-content></ng-content>
     </mat-sidenav-content>
 

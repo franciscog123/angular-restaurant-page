@@ -1,7 +1,7 @@
 .container
 {
     height: 100%;
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
 }
 
@@ -15,5 +15,9 @@
     font-size: large;
     margin:20px;
     line-height: 35px;
+}
+
+.card-content{
+    height: 100%;
 }
 
