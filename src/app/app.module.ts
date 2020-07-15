@@ -15,13 +15,17 @@ import { MatIconModule } from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card'; 
 
 import { NavbarComponent } from './navbar/navbar.component';
-import { AboutComponent } from './about/about.component'
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
+import { MenuComponent } from './menu/menu.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     AboutComponent,
+    ContactComponent,
+    MenuComponent,
   ],
   imports: [
     BrowserModule,

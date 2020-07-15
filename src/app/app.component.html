@@ -1,9 +1,13 @@
 <div>
     <app-navbar>
+
         <img mat-card-image class="hero-img" src="assets/ivan-torres-large-pizza-unsplash.jpg" alt="Pizza Hero Image">
-        <app-about></app-about>
-        <footer class="footer"> 
-            <span>&copy;Francisco Guerrero&nbsp;</span>
+        <!-- <app-about></app-about> -->
+        <!-- <app-contact></app-contact> -->
+        <router-outlet></router-outlet>
+
+        <footer class="footer">
+            <span>&copy; Francisco Guerrero&nbsp;</span>
             <a href="https://github.com/franciscog123/angular-restaurant-page">
                 <img class="icon" border="0" alt="Github Repo" src="assets/GitHub-Mark-Light-32px.png" width="30" height="30">
                 </a>
@@ -12,6 +16,7 @@
                     <img class="icon" border="0" alt="LinkedIn" src="assets/LI-In-Bug.png" width="35" height="30">
                     </a>
         </footer>
+
     </app-navbar>
 </div>
 
