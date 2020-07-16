@@ -15,6 +15,7 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {MatInputModule} from '@angular/material/input'; 
 import {MatFormFieldModule} from '@angular/material/form-field'; 
 import {MatSnackBarModule} from '@angular/material/snack-bar';
+import {MatTabsModule} from '@angular/material/tabs'; 
 
 import { NavbarComponent } from './navbar/navbar.component';
 import { AboutComponent } from './about/about.component';
@@ -44,6 +45,7 @@ import { MenuComponent } from './menu/menu.component'
     MatInputModule,
     MatFormFieldModule,
     MatSnackBarModule,
+    MatTabsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

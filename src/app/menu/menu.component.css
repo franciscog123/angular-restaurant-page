@@ -1,0 +1,16 @@
+h1
+{
+    font-weight: bold;
+}
+
+.content
+{
+    padding: 16px;
+}
+
+.tab-wrapper
+{
+    min-height: 800px; /*workaround for mat-tab known bug to prevent scrolling to top of page*/
+}
+
+  

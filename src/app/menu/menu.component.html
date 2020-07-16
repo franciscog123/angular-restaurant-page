@@ -1,1 +1,78 @@
-<p>Add menu later</p>
+<h1>Menu</h1>
+<div class="tab-wrapper">
+    <mat-tab-group mat-align-tabs="center" dynamicHeight>
+
+        <mat-tab label="Pizza">
+
+            <div class="content" fxLayout="row wrap" fxLayoutGap="16px grid" fxLayoutAlign="center center">
+                <div class="card-container" fxFlex="40%" fxFlex.xs="90%" fxFlex.sm="40%" *ngFor="let num of [1,2,3,4,5,6,7]">
+                    
+                    <mat-card>
+                        <mat-card-header >
+                            <mat-card-title>Meat Lover</mat-card-title>
+                            <mat-card-subtitle>$19.99</mat-card-subtitle>
+                        </mat-card-header>
+                        <img mat-card-image src="assets/meatlovers-pizza.jpg" alt="Meatlovers pizza">
+                        <mat-card-content >
+                            <p>
+                                Real Canadian Bacon, Ground Beef, Ham, Dry Cured Pepperoni, Italian Sausage, Mozzarella Cheese and Tomato Sauce.
+                            </p>
+                        </mat-card-content>
+                    </mat-card>
+
+                </div>
+            </div>
+
+        </mat-tab>
+
+        <mat-tab label="Pasta">
+            
+            <div class="content" fxLayout="row wrap" fxLayoutGap="16px grid" fxLayoutAlign="center center">
+                <div class="card-container" fxFlex="40%" fxFlex.xs="100%" fxFlex.sm="50%" *ngFor="let num of [1,2,3,4,5,6,7]">
+                    
+                    <mat-card>
+                        <mat-card-header >
+                            <mat-card-title>Meat Lover</mat-card-title>
+                            <mat-card-subtitle>$19.99</mat-card-subtitle>
+                        </mat-card-header>
+                        <img mat-card-image src="assets/meatlovers-pizza.jpg" alt="Meatlovers pizza">
+                        <mat-card-content >
+                            <p>
+                                Real Canadian Bacon, Ground Beef, Ham, Dry Cured Pepperoni, Italian Sausage, Mozzarella Cheese and Tomato Sauce.
+                            </p>
+                        </mat-card-content>
+                    </mat-card>
+
+                </div>
+            </div>
+
+        </mat-tab>
+
+
+        
+        <mat-tab label="Salad">
+
+            <div class="content" fxLayout="row wrap" fxLayoutGap="16px grid" fxLayoutAlign="center center">
+                <div class="card-container" fxFlex="40%" fxFlex.xs="100%" fxFlex.sm="50%" *ngFor="let num of [1,2,3,4,5,6,7]">
+                    
+                    <mat-card>
+                        <mat-card-header >
+                            <mat-card-title>Meat Lover</mat-card-title>
+                            <mat-card-subtitle>$19.99</mat-card-subtitle>
+                        </mat-card-header>
+                        <img mat-card-image src="assets/meatlovers-pizza.jpg" alt="Meatlovers pizza">
+                        <mat-card-content >
+                            <p>
+                                Real Canadian Bacon, Ground Beef, Ham, Dry Cured Pepperoni, Italian Sausage, Mozzarella Cheese and Tomato Sauce.
+                            </p>
+                        </mat-card-content>
+                    </mat-card>
+
+                </div>
+            </div>
+
+        </mat-tab>
+
+  </mat-tab-group>
+</div>
+  
