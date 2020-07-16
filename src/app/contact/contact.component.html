@@ -57,3 +57,45 @@
     </div>
 
 </div>
+
+<div class="contact-form-container">
+    <mat-card>
+        <mat-card-title>
+            <h1>Send us a message</h1>
+        </mat-card-title>
+
+        <mat-card-content>
+
+            <form (ngSubmit)="onSubmit(contactForm, formDirective)" [formGroup]="contactForm" #formDirective="ngForm">
+
+                <mat-form-field color="accent" appearance = "outline">
+                    <mat-label>Name</mat-label>
+                    <input formControlName="name" placeholder="Your name" matInput required minlength="2">
+                    <mat-error *ngIf="contactForm.get('name').hasError('minlength') && !contactForm.get('name').hasError('required')">Name must be at least 2 characters long.</mat-error> 
+                    <mat-error *ngIf="contactForm.get('name').hasError('required')">Name is <strong>required</strong></mat-error>
+                </mat-form-field>
+                
+                <br>
+
+                <mat-form-field color="accent" appearance="outline">
+                    <mat-label>Enter your email</mat-label>
+                    <input matInput placeholder="name@example.com" formControlName = "emailFormControl" required>
+                    <mat-error *ngIf="contactForm.get('emailFormControl').invalid">{{getErrorMessage()}}</mat-error>
+                </mat-form-field>
+
+                <br>
+
+                <mat-form-field color="accent" appearance="outline">
+                    <mat-label>Message</mat-label>
+                    <textarea class="textarea" matInput placeholder = "What's on your mind?" formControlName="message" required></textarea>
+                    <mat-error *ngIf="contactForm.get('message').hasError('required')">Message is <strong>required</strong></mat-error>
+                </mat-form-field>
+
+                <br>
+                <button color ="accent" mat-raised-button type="submit" [disabled]="!contactForm.valid">Submit</button>
+
+            </form>
+        </mat-card-content>
+
+    </mat-card>
+</div>

@@ -10,9 +10,11 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav'; 
 import { MatIconModule } from '@angular/material/icon';
-
-
 import {MatCardModule} from '@angular/material/card'; 
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {MatInputModule} from '@angular/material/input'; 
+import {MatFormFieldModule} from '@angular/material/form-field'; 
+import {MatSnackBarModule} from '@angular/material/snack-bar';
 
 import { NavbarComponent } from './navbar/navbar.component';
 import { AboutComponent } from './about/about.component';
@@ -37,6 +39,11 @@ import { MenuComponent } from './menu/menu.component'
     MatSidenavModule,
     MatIconModule,
     MatCardModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatInputModule,
+    MatFormFieldModule,
+    MatSnackBarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
