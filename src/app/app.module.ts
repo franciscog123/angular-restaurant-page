@@ -20,7 +20,8 @@ import {MatTabsModule} from '@angular/material/tabs';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
-import { MenuComponent } from './menu/menu.component'
+import { MenuComponent } from './menu/menu.component';
+import { FooterComponent } from './footer/footer.component'
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { MenuComponent } from './menu/menu.component'
     AboutComponent,
     ContactComponent,
     MenuComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

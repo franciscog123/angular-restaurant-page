@@ -1,0 +1,22 @@
+.footer
+  {
+    bottom: 0;
+    width: 100%;
+    background-color: #f44336;
+    color: white;
+    display: flex;
+    text-align: left;
+    line-height: 25px;
+    align-items: center;
+    font-size: medium;
+  }
+
+  .icon
+  {
+    padding:5px;
+    margin-top: 5px;
+  }
+  
+  .icon:hover{
+    transform: scale(1.2);
+  }
