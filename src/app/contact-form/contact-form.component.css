@@ -1,0 +1,33 @@
+h1{
+    font-weight: bold;
+}
+
+.contact-form-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.mat-form-field {
+    width: 100%;
+  }
+
+.mat-card{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mat-card-content{
+    text-align: center;
+    width:80%;
+    justify-content: center;
+}
+
+.textarea{
+    height: 100px;;
+}

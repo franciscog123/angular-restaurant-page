@@ -21,7 +21,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { MenuComponent } from './menu/menu.component';
-import { FooterComponent } from './footer/footer.component'
+import { FooterComponent } from './footer/footer.component';
+import { ContactFormComponent } from './contact-form/contact-form.component'
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { FooterComponent } from './footer/footer.component'
     ContactComponent,
     MenuComponent,
     FooterComponent,
+    ContactFormComponent,
   ],
   imports: [
     BrowserModule,
