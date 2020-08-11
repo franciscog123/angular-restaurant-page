@@ -4,7 +4,7 @@ A responsive restaurant homepage created using the Angular framework and Angular
 
 Hosted on AWS
 
-Live demo: franciscog-restaurant-site-bucket.s3-website.us-east-2.amazonaws.com
+Live demo: http://franciscog-restaurant-site-bucket.s3-website.us-east-2.amazonaws.com
 
 ## Development server
 
