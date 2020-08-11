@@ -2,7 +2,9 @@
 
 A responsive restaurant homepage created using the Angular framework and Angular Material UI component library.
 
-Live demo: https://franciscog123.github.io/angular-restaurant-page/
+Hosted on AWS
+
+Live demo: franciscog-restaurant-site-bucket.s3-website.us-east-2.amazonaws.com
 
 ## Development server
 
